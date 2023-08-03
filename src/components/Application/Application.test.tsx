@@ -24,7 +24,7 @@ describe("Application", () => {
 
     const submitBUttonElement = screen.getByRole("button")
     expect(submitBUttonElement).toBeInTheDocument()
-    expect(submitBUttonElement).not.toBeEnabled()
+    expect(submitBUttonElement).toBeDisabled()
 
     const pageHeading = screen.getByRole("heading", {
       level: 1,
