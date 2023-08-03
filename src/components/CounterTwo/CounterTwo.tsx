@@ -1,4 +1,4 @@
-import { CounterTwoProps } from './CounterTwo.types'
+import { CounterTwoProps } from "./CounterTwo.types"
 
 export const CounterTwo = (props: CounterTwoProps) => {
   return (

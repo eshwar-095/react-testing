@@ -1,6 +1,6 @@
-import "./App.css";
-import Counter from "./components/Counter/Counter";
-import { AppProviders } from "./providers/AppProviders";
+import "./App.css"
+import Counter from "./components/Counter/Counter"
+import { AppProviders } from "./providers/AppProviders"
 //import { Application } from './components/Application/Application';
 //import Skills from './components/Skills/Skills';
 
@@ -13,7 +13,7 @@ function App() {
         <Counter />
       </div>
     </AppProviders>
-  );
+  )
 }
 
-export default App;
+export default App
